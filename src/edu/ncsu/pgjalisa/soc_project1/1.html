@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Change Color</title>
+</head>
+<body>
+	<p id="change">Click on me to make me gray.</p>
+	<script type="text/javascript">
+		document.getElementById('change').onclick = turnGray;
+		function turnGray()
+		{
+			document.getElementById('change').style.color = "gray";
+		}
+	</script>
+</body>
+</html>
